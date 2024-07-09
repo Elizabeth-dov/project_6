@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </html><link href="https://fonts.googleapis.com/css?family=Manrope:regular,500,600,700,800&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,400;1,300&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" 
+rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/> 
+ 
+    <link rel="stylesheet" href="style.css">
+    <title>HomePage</title>
+</head>
+<body>
+
+    <div class="wrapper">
+    <header class="header">
+        <div class="menu--close"></div>
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="index.html">
+                      <img class="logo-images"  src="images/logo.svg" alt="">
+                </a>
+                <nav class="menu">
+                    <button class="menu__btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul class="menu__list">
+                        <li class="menu__close">
+                            <button class="menu__close-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M0.553438 0.553437C-0.184479 1.29135 -0.184479 2.48775 0.55344 3.22567L7.32778 10L0.553436 16.7743C-0.184481 17.5123 -0.18448 18.7086 0.553437 19.4466C1.29136 20.1845 2.48776 20.1845 3.22567 19.4466L10 12.6722L16.7743 19.4465C17.5122 20.1845 18.7086 20.1845 19.4466 19.4465C20.1845 18.7086 20.1845 17.5122 19.4466 16.7743L12.6722 10L19.4466 3.2257C20.1845 2.48778 20.1845 1.29138 19.4466 0.553464C18.7086 -0.184451 17.5122 -0.184451 16.7743 0.553466L10 7.32777L3.22567 0.553437C2.48775 -0.18448 1.29136 -0.18448 0.553438 0.553437Z" fill="#754E29"/>
+                                </svg>
+                        </button>
+                        </li>
+                        <li class="menu__item"><a href="cooffee.html" class="menu__link">Coffee</a>
+                        </li>
+                        <li class="menu__item"><a href="tea.html" class="menu__link">Tea</a>
+                        </li>
+                        <li class="menu__item"><a href="aksesories.html" class="menu__link">Aksesories</a>
+                        </li>
+                        <li class="menu__item"><a href="about.html" class="menu__link">About us</a>
+                        </li>
+                        <li class="menu__item"><a href="more.html" class="menu__link">More</a>
+                        </li>
+                        <li class="mobile-nav">
+                            <ul class="mobile-menu">
+                                <li class="mobile-menu__item"><a href="contacts.html" class="mobile__menu-link">Contact Us</a>
+                                </li>
+                                <li class="mobile-menu__item"><a href="#" class="mobile__menu-link">Our Blog</a>
+                                </li>
+                                <li class="mobile-menu__item"><a href="#" class="mobile__menu-link">Shipping and Delivery</a>
+                                </li>
+                            </ul>
+                            <ul class="mobile_actions">
+                                <li class="mobile-actions__item">
+                                    <a href="#" class="user-actions__link">
+                                        <img src="" alt="">
+                                    </a>
+                                </li>
+                                <li class="mobile-actions__item">
+                                    <a href="#" class="user-actions__link">
+                                        <img src="img/user.svg" alt="">
+                                    </a>
+                                </li>
+                                <li class="mobile-actions__item">
+                                    <a href="#" class="user-actions__link">
+                                        <img src="img/search.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="user-actions">
+                    <li class="user-actions__item">
+                        <a href="#" class="user-actions__link">
+                            <img class="images-user" src="images/phone.png" alt="">
+                        </a>
+                        <a href="#" class="user-actions__link">
+                            +727392940
+                        </a>
+                    </li>
+                    <li class="user-actions__item">
+                        <a href="#" class="user-actions__link">
+                            <img class="images-user" src="images/find.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </header>
+        <main class="main">
+            <section class="top">
+                <div class="container">
+                    <div class="top__inner">
+                        <h1 class="top__title">"Coffee is the language we speak in everyday life when words are not enough."</h1>
+        
+                    </div>
+                    </div>
+            </section>
+            <section class="choose">
+                <div class="container"></div>
+              <h2 class="section-title"> Choose your coffee</h2>
+              <div class="tabs">
+                <div class="tabs__btn">
+                  <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Guatemala</button>
+                  <button class="tabs__btn-item" data-button="content-2">Kenia</button>
+                  <button class="tabs__btn-item" data-button="content-3">Brazylia</button>
+                  <button class="tabs__btn-item" data-button="content-4">Kolumbia</button>
+                </div>
+                <div class="tabs__content">
+                  <div class="tabs__content-item tabs__content-item--active" id="content-1">
+              <div class="card">
+                <img class="card__img" src="images/acsesories.jpeg" alt="">
+                <div class="card__content">
+                <h4 class="card__title">Guatemala Antigua</h4>
+                <p class="card__text">middle roasted</p>
+               <p class="card__price"> $ 20</p>
+              </div>
+               <a href="#" class="card__link">see details</a>
+              </div>
+              <div class="card">
+                
+                <img class="card__img" src="images/acsesories.jpeg" alt="">
+                <div class="card__content">
+                    <h4 class="card__title">Guatemala Antigua</h4>
+                    <p class="card__text">middle roasted</p>
+                   <p class="card__price"> $ 20</p>
+               </div>
+               <a href="#" class="card__link">see details</a>
+              </div>
+              <div class="card">
+               
+                <img class="card__img" src="images/acsesories.jpeg" alt="">
+                 <div class="card__content">
+                    <h4 class="card__title">Guatemala Antigua</h4>
+                    <p class="card__text">middle roasted</p>
+                   <p class="card__price"> $ 20</p>
+              </div>
+               <a href="#" class="card__link">see details</a>
+              </div>
+              <div class="card">
+               
+                <img class="card__img" src="images/acsesories.jpeg" alt="">
+                <div class="card__content">
+                    <h4 class="card__title">Guatemala Antigua</h4>
+                    <p class="card__text">middle roasted</p>
+                   <p class="card__price"> $ 20</p>
+               </div>
+               <a href="#" class="card__link">see details</a>
+              </div>
+                  </div>
+                  <div class="tabs__content-item tabs__content-item--active" id="content-2">
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                       <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                  </div>
+                  <div class="tabs__content-item tabs__content-item--active" id="content-3">
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                       <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                  </div>
+                  <div class="tabs__content-item tabs__content-item--active" id="content-4">
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                       <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                    </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                    <div class="card">
+                        <img class="card__img" src="images/acsesories.jpeg" alt="">
+                      <div class="card__content">
+                        <h4 class="card__title">Guatemala Antigua</h4>
+                        <p class="card__text">middle roasted</p>
+                       <p class="card__price"> $ 20</p>
+                     </div>
+                     <a href="#" class="card__link">see details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="showmore__link">SHOW MORE</a>
+               </section>
+    
+    
+    
+        </main>
+        <footer class="footer">
+           <div class="container">
+<div class="footer__inner">
+    <ul class="footer__products">
+        <li class="footer__products-title">
+            Products
+        </li>
+        <li class="footer__products-item"><a href="#" class="footer__products-link">Coffee</a>
+        </li>
+        <li class="footer__products-item"><a href="#" class="footer__products-link">Tea</a>
+        </li>
+        <li class="footer__products-item"><a href="#" class="footer__products-link">Aksesories</a>
+        </li>
+        <li class="footer__products-item"><a href="#" class="footer__products-link">Bean
+        </a>
+        </li>
+        <li class="footer__products-item"><a href="#" class="footer__products-link">More</a>
+        </li>
+        </ul>
+    <ul class="footer__company">
+        <li class="footer__company-title">
+            Company
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">About Us</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="contacts.html" class="footer__company-link">Contact Us</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">Our Blog</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">FAQ</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">Shipping & Delivery</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">Refund policy</a>
+        </li>
+        <li class="footer__company-item">
+            <a href="#" class="footer__company-link">Terms of Service</a>
+        </li>
+    </ul>
+    <blockquote class="footer__blockquoete">
+<p class="footer__blockquoete-text">
+    “COFFEE is a journey. It can take you to new places and open your mind to new experiences. 
+    Let every sip transport you to a world of wonder and possibility”
+</p>
+<cite class="footer__blockquoete-author">Dragomir Teodorescu,
+    <span>Tealuxe owner</span> 
+    </cite>
+    </blockquote>
+    <div class="footer__contacts">
+        <h5 class="footer__contacts-title">
+            Stay In Touch
+        </h5>
+        <p class="footer__contacts-text">Please feel free to contact 
+            us via the email of phone. We would be happy to hear from you!</p>
+   <ul class="footer___nav">
+    <li class="footer__nav-logo">
+        <a href="" class="footer__logo">
+            <img src="" alt="" class="">
+        </a>
+    </li>
+    <li class="footer__nav-contacts">
+        <a class="footer__nav-phone" href="tel:+370 680 123456">+370 680 123456</a>
+        <a class="footer__nav-email" href="mailto:info@tealuxe.com">info@coffeeluxe.com</a>
+    </li>
+    <li class="footer__social">
+        <ul class="footer__social-list">
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="images/facebook.svg" alt=""></a>
+                </li>
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="images/instagram.svg" alt=""></a>
+                </li>
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="images/in.svg" alt=""></a>
+                </li>
+            <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                    <img src="images/youtube.svg" alt=""></a>
+                </li>
+        </ul>
+    </li>
+   </ul>
+        </div>
+</div>
+
+            <div class="footer__bottom">
+        <p class="footer__copy">© Tealuxe, 2023</p>
+        <ul class="partners-logo">
+            <li class="partners-logo__item">
+                <img src="img/partners-1.svg" alt="">
+            </li>
+            <li class="partners-logo__item">
+                <img src="img/partners-2.svg" alt="">
+            </li>
+            <li class="partners-logo__item">
+                <img src="img/partners-3.svg" alt="">
+            </li>
+            <li class="partners-logo__item">
+                <img src="img/partners-4.svg" alt="" >
+            </li>
+        </ul>
+            </div>
+           </div> 
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+   
+</body>
+</html>
